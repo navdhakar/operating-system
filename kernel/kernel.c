@@ -16,7 +16,7 @@ char * p_next_char = message;
 }*/
 
 void kmain(){
- print("testing screen driver");
+ print("testing screen drivers");
     while(1){
 
     }
