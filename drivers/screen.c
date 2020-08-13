@@ -1,4 +1,4 @@
-#include</home/navdeep/Desktop/operating-system/drivers/screen.h>
+#include "screen.h"
 
 /*void print_char(char character, int row, int col, char attribute_byte){
 

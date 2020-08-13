@@ -16,7 +16,7 @@ char * p_next_char = message;
 }*/
 
 void kmain(){
- print("entered in main region usa via driver");
+ print("testing screen driver");
     while(1){
 
     }
