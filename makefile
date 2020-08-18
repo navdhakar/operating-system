@@ -25,7 +25,7 @@ kernel/kernel_entry.o:kernel/kernel_entry.asm
 boot_sect.bin: Boot/boot_sect.asm
 	nasm -f bin $< -o $@
 
-%.o : %.c
+%.o : %.c ${HEADERS}
 	gcc -fno-pie -c $< -o $@ -m32
 
 

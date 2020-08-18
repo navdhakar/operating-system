@@ -1,8 +1,9 @@
-/*#include</home/navdeep/Desktop/operating-system/drivers/screen.h>*/
+#include "/home/navdeep/Desktop/operating-system/drivers/screen.h"
 /*void print(char*message);
 extern void kmain();*/
 void main() {
-    kmain(); 
+
+  print_char("driver up and running.0");
 }
 /*void print(char*message){
 char * p_video_buffer = (char*)0xb8000;
@@ -15,9 +16,3 @@ char * p_next_char = message;
     }
 }*/
 
-void kmain(){
- print("testing screen drivers");
-    while(1){
-
-    }
-}

@@ -8,6 +8,7 @@
     */
    /*this will act as middle ware b/w high level c prog. and low level assembly instruction for
     i/o hardware register*/
+    #include "low_level.h"
    unsigned char port_byte_in(unsigned short port){
         unsigned char result;
             __asm__("in %%dx, %%al" : "= a" (result) : "d" (port));
